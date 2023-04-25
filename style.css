@@ -1,5 +1,5 @@
 body {
-    background-image: url(imagens/penacastletoweri.jpg);
+    background: url(imagens/penacastletoweri.jpg);
     background-size: cover;
     color: rgb(16, 26, 66);
     text-align: center;
@@ -47,4 +47,53 @@ ul li a:hover {
 }
 .botao:hover {
     background-color: rgb(21, 36, 95);
+}
+
+@media (max-width: 640px) {
+    body {
+        background: white;
+        margin-right: 0px;
+    }
+    h1 {
+        padding-top: 25px; 
+    }
+    .botao-paragraph {
+        margin-top: 40px;
+    }  
+    ul li a {
+        color: rgb(21, 36, 95);
+    }
+    ul {
+        margin-top: 25px;
+    }
+    span {
+        color: #055e01f8
+    }
+    .botao:hover {
+        background-color: #5d915af8
+    }     
+}
+@media (max-width: 768px) {
+    body {
+        background: white;
+        margin-right: 0px;
+    }
+    h1 {
+        padding-top: 25px; 
+    }
+    .botao-paragraph {
+        margin-top: 40px;
+    }  
+    ul li a {
+        color: rgb(21, 36, 95);
+    }
+    ul {
+        margin-top: 25px;
+    }
+    span {
+        color: #055e01f8
+    }
+    .botao:hover {
+        background-color: #5d915af8
+    }     
 }
