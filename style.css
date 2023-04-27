@@ -7,8 +7,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 h1 {    
-    font-size: 50px;
-    padding-top: 280px; 
+    font-size: 55px;
+    padding-top: 10%; 
     margin-bottom: 15px;
     opacity: .90
 }
@@ -35,7 +35,7 @@ ul li a:hover {
     opacity: .8; 
 }
 .botao-paragraph {
-    margin-top: 400px;
+    margin-top: 450px;
 }
 .botao {
     text-decoration: none;
@@ -46,15 +46,16 @@ ul li a:hover {
     border-radius: 5px;
 }
 .botao:hover {
-    background-color: rgb(21, 36, 95);
+    background-color: rgb(35, 54, 129);
 }
-
 @media (max-width: 640px) {
     body {
         background: white;
-        margin-right: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     h1 {
+        font-size: 50px;
         padding-top: 25px; 
     }
     .botao-paragraph {
@@ -73,13 +74,15 @@ ul li a:hover {
         background-color: #5d915af8
     }     
 }
-@media (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
     body {
         background: white;
-        margin-right: 0px;
+        margin-top: 50px;
+        margin-right: 40px;
+        margin-left: 40px;
     }
     h1 {
-        padding-top: 25px; 
+        padding-top: 40px; 
     }
     .botao-paragraph {
         margin-top: 40px;
